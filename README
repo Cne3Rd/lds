@@ -1,0 +1,24 @@
+# lds
+lds is a simple package that allows
+you to create and work with list
+
+# Install
+```
+go get -v github.com/Cne3Rd/lds
+
+```
+
+# Usage
+```
+import (
+    "github.com/Cne3Rd/lds"
+)
+
+list := NewList()
+list.AddToHead(7)
+list.AddToEnd(4)
+list.AddToEnd(3)
+list.AddToHead(2)
+list.IterateList()
+
+```
